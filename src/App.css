@@ -302,7 +302,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
 
 
   /* home */
@@ -312,7 +312,7 @@
 }
 
 .home .home-text{
-  top:300px;
+  top:200px;
   width:80vw;
   left: 30px;
 
@@ -337,7 +337,7 @@
 
 .home .home-text p{
   width:80vw;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .home .list{
@@ -347,28 +347,38 @@
 }
 
 .home img{
-  height:300px;
+  height:200px;
   top: 30px;
 }
 
 .contact .linkedin img{
   left:20px;
   top: -30px;
+  height: 35px;
 }
 .contact .whatsapp img{
   left:50px;
   top: -30px;
+  height: 35px;
 }
 .contact .outlook img{
   left:80px;
   top: -30px;
+  height: 35px;
 }
 
 /* header */
 .header {
   justify-content:flex-start;
-  font-size: 20px;
+  font-size: 18px;
+  gap: 0px;
 }
+
+.header ul li a:hover {
+  font-size: 22.5px;
+}
+
+
 
 .header .logo p{
   display: none;
@@ -378,8 +388,9 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 0px;
+  position: relative;
+  left: -20px;
 }
-
 
 
 /* about */
@@ -387,14 +398,20 @@
   font-size: 20px;
 }
 .about p{
-  font-size: 17px;
+  font-size: 13px;
 }
 
 /* projects */
 .projectCont{
   flex-direction: column;
 }
-.projectCont p{
-  font-size: 17px;
+
+.projects #sorting-visualization h1 {
+  font-size: 20px;
 }
+
+
+.projects .projectCont p {
+  font-size: 15px;
 }
+} 
