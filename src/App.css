@@ -10,7 +10,7 @@
   height: 45px;
   align-items: center;
   justify-content: space-between;
-  font-size: larger;
+  font-size: 20px;
 }
 
 .header .logo {
@@ -18,7 +18,7 @@
   height: 40px;
   align-items: center;
   gap: 20px;
-  font-size: larger;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -65,7 +65,7 @@
 
 .header ul li a:hover {
   color: cyan;
-  font-size: x-large;
+  font-size: 25px;
 }
 
 
@@ -116,7 +116,7 @@
 .home .home-text p{
   width:600px;
   color: cyan;
-  font-size: x-large;
+  font-size: 25px;
 }
 
 .home img{
@@ -131,7 +131,7 @@
   right:120px;
   bottom:300px;
   color: yellow;
-  font-size: x-large;
+  font-size: 25px;
 }
 
 /* contacts */
@@ -198,7 +198,7 @@
 
 .about p{
   color: white;
-  font-size: x-large;
+  font-size: 25px;
 }
 
 .aboutme h1{
@@ -235,22 +235,17 @@
 
 .projects .projectCont img{
   width: 400px;
+  height:300px;
   border-radius: 10px;
-  box-shadow: -5px 5px 25px rgb(50, 119, 160);
+  box-shadow: -2px 2px 25px rgb(32, 83, 112);
   outline: 2px solid black;
-}
-
-.projects .projectCont img{
-  width: 400px;
-  border-radius: 10px;
-  box-shadow: -2px 2px 25px rgb(32, 83, 112)
 }
 
 .projects .projectCont p{
   display: flex;
   flex-direction: column;
   color: white;
-  font-size: x-large;
+  font-size: 25px;
   margin-right: 30px;
 }
 
@@ -261,5 +256,45 @@
 
 .projects .projectCont p a:hover{
   text-decoration: underline;
-  color: cyan;
+  color: rgb(10, 247, 247);
+}
+
+@media screen and (max-width: 1700px) {
+  .home img{
+    height:600px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .home img{
+    height: 400px;
+    left:10px;
+  }
+
+  .contact .linkedin img{
+    left:300px;
+  }
+  .contact .whatsapp img{
+    left:330px;
+  }
+  .contact .outlook img{
+    left:360px;
+  }
+
+  .home .list{
+    bottom:200px;
+  }
+
+  .projects #sorting-visualization h1{
+    font-size: 25px;
+  }
+
+  .projects .projectCont img{
+    width: 250px;
+    height:200px;
+  }
+
+  .projects .projectCont p{
+    font-size: 20px;
+  }
 }
