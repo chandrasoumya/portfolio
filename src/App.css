@@ -125,12 +125,12 @@
   height:750px;
   position: absolute;
   bottom: 0px;
-  right:400px;
+  right:300px;
 }
 
 .home .list{
   position: absolute;
-  right:120px;
+  right:80px;
   bottom:300px;
   color: yellow;
   font-size: 25px;
