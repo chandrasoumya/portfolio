@@ -175,12 +175,12 @@
   left:70px;
 }
 
-.contact .outlook{
+.contact .gmail{
   position: absolute;
   left:120px;
 }
 
-.contact .outlook img{
+.contact .gmail img{
   left:120px;
 }
 
@@ -280,7 +280,7 @@
   .contact .whatsapp img{
     left:330px;
   }
-  .contact .outlook img{
+  .contact .gmail img{
     left:360px;
   }
 
@@ -361,7 +361,7 @@
   top: -30px;
   height: 35px;
 }
-.contact .outlook img{
+.contact .gmail img{
   left:80px;
   top: -30px;
   height: 35px;
