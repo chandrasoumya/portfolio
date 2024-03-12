@@ -15,6 +15,18 @@ const Projects = ()=>{
                     </p>
                 </div>
             </div>
+
+            <div className="each-projects" id="courses-app">
+                <h1>2. Courses App </h1>
+                <div className="projectCont">
+                <img src="/photos/courses-app.png" alt="loading"/>
+                <p>The Courses App project is a e-learning platform. It is basically a frontend project made with 
+                    React js and SCSS. It is a fully responsive frontend project.
+                    <br/><br/>
+                    <a href="https://courses-app-soumya.vercel.app/">Click here</a>
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
